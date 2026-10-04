@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>Aaj Kya Khaye? — Ghar ka Swad</title>
+<meta name="description" content="Aaj Kya Khaye? — discover nearby messes, compare menus and prices, and reserve a seat for free." />
+<link rel="icon" type="image/svg+xml" href="mark.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="stage">
+    <div class="phone" role="application" aria-label="Aaj Kya Khaye? mobile app prototype">
+      <div class="phone-screen">
+        <div class="statusbar">
+          <span class="statusbar-time" id="clock">9:41</span>
+          <span class="statusbar-icons">
+            <svg width="17" height="11" viewBox="0 0 17 11" aria-hidden="true"><rect x="0" y="7" width="3" height="4" rx="1" fill="currentColor"/><rect x="4.5" y="5" width="3" height="6" rx="1" fill="currentColor"/><rect x="9" y="2.5" width="3" height="8.5" rx="1" fill="currentColor"/><rect x="13.5" y="0" width="3" height="11" rx="1" fill="currentColor"/></svg>
+            <svg width="16" height="12" viewBox="0 0 16 12" aria-hidden="true"><path d="M8 10.4 6.2 8.6a2.6 2.6 0 0 1 3.6 0z" fill="currentColor"/><path d="M3.6 6.1a6.4 6.4 0 0 1 8.8 0" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M1.2 3.4a9.8 9.8 0 0 1 13.6 0" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+            <svg width="25" height="12" viewBox="0 0 25 12" aria-hidden="true"><rect x="0.6" y="0.6" width="20" height="10.8" rx="3.2" fill="none" stroke="currentColor" stroke-opacity=".5" stroke-width="1.2"/><rect x="2.4" y="2.4" width="15" height="7.2" rx="2" fill="currentColor"/><path d="M22.4 4.2v3.6a2 2 0 0 0 0-3.6z" fill="currentColor" fill-opacity=".5"/></svg>
+          </span>
+        </div>
+
+        <main class="screen" id="screen"></main>
+
+        <nav class="tabbar" id="tabbar" aria-label="Main navigation"></nav>
+
+        <div class="sheet-layer" id="sheet-layer" aria-live="polite"></div>
+        <div class="toast-layer" id="toast-layer" aria-live="polite"></div>
+      </div>
+    </div>
+    <p class="stage-caption"><strong>Aaj&nbsp;Kya&nbsp;Khaye?</strong> · Ghar ka Swad — interactive MVP prototype &nbsp;·&nbsp; discovery → compare → free seat reservation</p>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 160" width="360" height="160" role="img" aria-label="Aaj Kya Khaye? logo">
+  <rect width="360" height="160" fill="#FCF6DC"/>
+  <g transform="translate(112,10)" fill="none" stroke="#F0821E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- roof -->
+    <path d="M68 4 13 38"/>
+    <path d="M68 4 123 38"/>
+    <path d="M3 38H27"/>
+    <path d="M109 38H133"/>
+    <!-- window -->
+    <rect x="57" y="14" width="22" height="20" rx="1.5" stroke-width="5"/>
+    <path d="M68 14v20" stroke-width="5"/>
+    <path d="M57 24h22" stroke-width="5"/>
+    <!-- fork -->
+    <path d="M17 48v10M24 48v10M31 48v10"/>
+    <path d="M15 58h18"/>
+    <path d="M24 58v26"/>
+    <!-- spoon -->
+    <ellipse cx="112" cy="54" rx="9" ry="11"/>
+    <path d="M112 65v19"/>
+    <!-- serving dome -->
+    <circle cx="68" cy="55" r="5" fill="#F0821E" stroke="none"/>
+    <path d="M44 84a24 24 0 0 1 48 0"/>
+    <path d="M34 84h68"/>
+  </g>
+  <text x="180" y="144" text-anchor="middle" textLength="316" lengthAdjust="spacingAndGlyphs"
+        font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="33"
+        letter-spacing="1.5" fill="#2A2420">AAJ KYA KHAYE?</text>
+</svg>
